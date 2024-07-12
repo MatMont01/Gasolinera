@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Preline styles */
+@import 'preline/dist/preline.css';
+
+/* Dark mode styles */
+@layer utilities {
+    .dark .bg-gray-800 {
+        background-color: #1f2937;
+    }
+    .dark .bg-gray-900 {
+        background-color: #111827;
+    }
+    .dark .text-white {
+        color: #f9fafb;
+    }
+    .dark .text-gray-300 {
+        color: #d1d5db;
+    }
+    .dark .text-gray-400 {
+        color: #9ca3af;
+    }
+}
